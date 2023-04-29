@@ -6,6 +6,7 @@ public class Main {
         task4();
         task5();
         task6();
+        task7();
 
     }
 
@@ -47,6 +48,13 @@ public class Main {
     public static void task6() {
         System.out.println("\nзадача 6 ");
         for (int i = 7; i < 100; i += 7) {
+            System.out.println(i);
+        }
+    }
+
+    public static void task7() {
+        System.out.println("\nзадача 7 ");
+        for (int i = 1; i < 513; i *= 2) {
             System.out.println(i);
         }
     }
