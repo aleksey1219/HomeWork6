@@ -3,6 +3,7 @@ public class Main {
         task1();
         task2();
         task3();
+        task4();
 
     }
 
@@ -22,7 +23,14 @@ public class Main {
 
     public static void task3() {
         System.out.println("\nзадача 3 ");
-        for (int i = 0; i <17; i+=2) {
+        for (int i = 0; i < 17; i += 2) {
+            System.out.println(i);
+        }
+    }
+
+    public static void task4() {
+        System.out.println("\nзадача 4 ");
+        for (int i = 10; i > -10; i--) {
             System.out.println(i);
         }
     }
