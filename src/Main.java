@@ -9,6 +9,7 @@ public class Main {
         task7();
         task8();
         task9();
+        task10();
     }
 
     public static void task1() {
@@ -86,4 +87,11 @@ public class Main {
         System.out.println(accumulation);
     }
 
+    public static void task10() {
+        System.out.println("\nзадача 10 ");
+        for (int i = 1; i < 11; i++) {
+            int a = i * 2;
+            System.out.println(" 2 * " + i + " = " + a);
+        }
+    }
 }
